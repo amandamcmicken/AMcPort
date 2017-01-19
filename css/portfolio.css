@@ -198,6 +198,9 @@ h3{
 .project-info {
   padding: 0;
 }
+.project-info-projects {
+  padding: 0;
+}
 .project-info-body {
   padding: 0;
 }
@@ -505,6 +508,10 @@ blockquote{
         float: left;
         width: 65%;
     }
+    .project-info-projects{
+        float: left;
+        width: 65%;
+    }
     .project-info-body{
         float: left;
     }
@@ -703,6 +710,10 @@ blockquote{
     .project-info{
         float: left;
         width: 65%;
+    }
+    .project-info-projects{
+        float: left;
+        width: 33%;
     }
 }
 
