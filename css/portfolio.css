@@ -39,6 +39,7 @@ a:hover.hyperlink{
     text-decoration: underline;
 }
 
+
 a.hyperlink-bio{
     position: relative;
     color: black;
@@ -195,6 +196,9 @@ h3{
 }
 
 .project-info {
+  padding: 0;
+}
+.project-info-body {
   padding: 0;
 }
 .project-info-footer {
@@ -464,6 +468,14 @@ blockquote{
     margin-left: -15px;
     margin-right: -15px;
 }
+    .Pad{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .row.main{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
 
 @media (min-width: 768px){
@@ -492,6 +504,9 @@ blockquote{
     .project-info{
         float: left;
         width: 65%;
+    }
+    .project-info-body{
+        float: left;
     }
     /*.project-info-index{
         padding-left: 35px;
@@ -687,7 +702,7 @@ blockquote{
     }
     .project-info{
         float: left;
-        width: 33%;
+        width: 65%;
     }
 }
 
