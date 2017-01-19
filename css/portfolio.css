@@ -145,6 +145,23 @@ h3{
     font-weight: bold;
     font-family: 'Roboto Condensed';
 }
+.title{
+    font-weight: 700;
+    font-size: 1.3em;
+    line-height: 4em;
+}
+.name{
+    font-weight: 800;
+    font-size: 1.1em;
+}
+.time{
+    font-weight: 400;
+    margin-bottom: .8em;
+    font-size: 1.1em;
+}
+.descrip{
+    font-size: 1.1em;
+}
 .subhead{
     font-weight: 600;
     font-size: 13px;
@@ -418,6 +435,9 @@ blockquote{
 }
  .footer-text a:hover{
      text-decoration:underline;
+}
+.fa:hover {
+    color: #CA467A;
 }
 .center{
     margin-top: 55px;
@@ -734,6 +754,10 @@ blockquote{
     }
     .Banner-NoPadding2{
         padding-left: 0px;
+    }
+    .row.main.me.footer2{
+        padding-left: 20%;
+        padding-right: 20%;
     }
 }
 
