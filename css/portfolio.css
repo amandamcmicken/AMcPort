@@ -64,7 +64,7 @@ a:hover.hyperlink-bio{
 
 .navbar-default .navbar-brand {
     color: #000;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 300;
 }
 .navbar-header {
@@ -566,7 +566,7 @@ blockquote{
     }
 }
 
-@media (min-width: 390px){
+@media (min-width: 400px){
 
     .navbar-nav a:hover::before, .navbar-nav a.active-page:before {
         top: 11px;
@@ -611,7 +611,7 @@ blockquote{
     }
 }
 
-@media (min-width: 390px){
+@media (min-width: 400px){
 .navbar-right {
     float: right!important;
     margin-right: -15px;
@@ -766,7 +766,7 @@ blockquote{
 }
 
 
-@media (min-width: 390px){
+@media (min-width: 400px){
 .navbar-nav {
     float: left ;
     margin: 0;
@@ -781,6 +781,26 @@ blockquote{
     }
     .navbar-brand{
         padding-left: 0px;
+    }
+    .navbar-default .navbar-brand {
+    font-size: 18px;
+    }
+}
+
+@media (min-width: 375px){
+    .navbar-nav{
+        float: left;
+        margin: 0;
+    }
+    .navbar-right{
+        float: right!important;
+        margin-right: -15px;
+    }
+    .navbar-nav{
+        padding-top: 6px;
+    }
+    .navbar-default .navbar-brand {
+    padding-left: 0px;
     }
 }
 
