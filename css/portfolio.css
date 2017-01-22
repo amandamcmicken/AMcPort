@@ -611,7 +611,7 @@ blockquote{
     }
 }
 
-@media (min-width: 400px){
+@media (min-width: 390px){
 .navbar-right {
     float: right!important;
     margin-right: -15px;
@@ -766,7 +766,7 @@ blockquote{
 }
 
 
-@media (min-width: 400px){
+@media (min-width: 390px){
 .navbar-nav {
     float: left ;
     margin: 0;
