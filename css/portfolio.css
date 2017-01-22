@@ -56,7 +56,7 @@ a:hover.hyperlink-bio{
     display: none;
 }
 .navbar{
-    font-family: "roboto",sans-serif;
+    font-family: "Roboto",sans-serif;
     font-weight: 300;
     margin-bottom: 0px;
     border: none;
@@ -107,7 +107,7 @@ a:hover.hyperlink-bio{
 }
 
 body {
-    font-family: "Roboto Sans",sans-serif;
+    font-family: "Roboto",sans-serif;
     color: #000;
     font-weight: 300;
     font-size: 14px;
@@ -356,7 +356,7 @@ h3{
 .details {
     font-size: 13px;
     font-weight: 100;
-    font-family: 'roboto';
+    font-family: 'Roboto';
 }
 
 .project-descrip2{
