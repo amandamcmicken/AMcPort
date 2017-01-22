@@ -566,7 +566,7 @@ blockquote{
     }
 }
 
-@media (min-width: 400px){
+@media (min-width: 390px){
 
     .navbar-nav a:hover::before, .navbar-nav a.active-page:before {
         top: 11px;
