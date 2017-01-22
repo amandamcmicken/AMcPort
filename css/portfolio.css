@@ -141,6 +141,12 @@ body {
     padding-top: 50px;
     padding-bottom: 20px;
 }
+.NavRow.main.me.footer2{
+    background-color: #F9F9F9;
+    margin-bottom: 0px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
 h3{
     font-weight: bold;
     font-family: 'Roboto Condensed';
@@ -561,6 +567,10 @@ blockquote{
     padding-left: 5.3%;
     padding-right: 5.3%;
     }
+    .NavRow.main.me.footer2{
+    padding-left: 5.3%;
+    padding-right: 5.3%;
+    }
     .footer{
         padding-bottom: 150px;
     }
@@ -586,6 +596,10 @@ blockquote{
     .row.main.me{
     }
     .row.main.me.footer2{
+    padding-left: 1%;
+    padding-right: 1%;
+    }
+    .NavRow.main.me.footer2{
     padding-left: 1%;
     padding-right: 1%;
     }
@@ -677,6 +691,10 @@ blockquote{
     padding-left: 9%;
     padding-right: 9%;
     }
+    .NavRow.main.me.footer2{
+    padding-left: 9%;
+    padding-right: 9%;
+    }
     .footer{
         padding-bottom: 150px;
     }
@@ -734,6 +752,10 @@ blockquote{
     padding-left: 15.4%;
     padding-right: 15.4%;
     }
+    .NavRow.main.me.footer2{
+    padding-left: 15.4%;
+    padding-right: 15.4%;
+    }
     .project-info{
         float: left;
         width: 65%;
@@ -763,6 +785,10 @@ blockquote{
         padding-left: 0px;
     }
     .row.main.me.footer2{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .NavRow.main.me.footer2{
         padding-left: 20%;
         padding-right: 20%;
     }
