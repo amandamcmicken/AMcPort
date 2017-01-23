@@ -694,6 +694,7 @@ blockquote{
     .NavRow.main.me.footer2{
     padding-left: 9%;
     padding-right: 9%;
+    padding-bottom: 100px;    
     }
     .footer{
         padding-bottom: 150px;
