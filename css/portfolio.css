@@ -135,6 +135,10 @@ body {
     padding-top: 70px;
     padding-bottom: 60px;
 }
+.container_footer{
+    margin: auto;
+    max-width: 85%;
+}
 .row.main.me.footer2{
     background-color: #F9F9F9;
     margin-bottom: 0px;
@@ -142,7 +146,6 @@ body {
     padding-bottom: 20px;
 }
 .NavRow.main.me.footer2{
-    background-color: #F9F9F9;
     margin-bottom: 0px;
     padding-top: 50px;
     padding-bottom: 20px;
@@ -212,10 +215,7 @@ h3{
     padding-left: 10px;
     padding-right: 10px;
 }
-.footer{
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
+
 
 .row.secondary {
   background-color: #FAA519;
@@ -288,6 +288,9 @@ h3{
 }
 .project-title3 span.subtitle-index{
     color: #000000;
+}
+.footer{
+    background-color: #F9F9F9;
 }
 .fontsize-index{
     font-size: 1em;
@@ -418,7 +421,9 @@ blockquote{
     padding: 12px;
     text-decoration: none;
 }
-
+.content{
+    margin-top: 2%;
+}
 .footer-link:hover{
     padding: 12px;
     text-decoration: none;
@@ -571,9 +576,7 @@ blockquote{
     padding-left: 5.3%;
     padding-right: 5.3%;
     }
-    .footer{
-        padding-bottom: 150px;
-    }
+
     .footer-float{
         margin-top: 20px;
     }
@@ -696,9 +699,7 @@ blockquote{
     padding-right: 9%;
     padding-bottom: 100px;    
     }
-    .footer{
-        padding-bottom: 150px;
-    }
+
     .Banner-NoPadding{
         padding-left: 0px;
     }
@@ -842,7 +843,30 @@ blockquote{
         margin-right: 0px;
     }
 }
-
+@media (max-width: 699px) and (min-width: 625px){
+    .container-footer{
+        margin: auto;
+        max-width: 80%;
+    }
+}
+@media (max-width: 854px) and (min-width: 700px){
+    .container-footer{
+        margin: auto;
+        max-width: 80%;
+    }
+}
+@media (max-width: 1055px) and (min-width: 855px){
+    .container-footer{
+        margin: auto;
+        max-width: 67%;
+    }
+}
+@media (min-width: 1056px){
+    .container-footer{
+        margin: auto;
+        max-width: 54%;
+    }
+}
 
 /*@media (min-width: 600px) {
     
@@ -857,3 +881,4 @@ blockquote{
         border: 10px solid pink;
     }
 }*/
+- - - - - - -
