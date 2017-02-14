@@ -39,32 +39,34 @@ a:hover.hyperlink{
     text-decoration: underline;
 }
 
-
 a.hyperlink-bio{
     position: relative;
     color: black;
-    text-decoration: underline;
+    background-color: yellow;
 }
 a:visited.hyperlink-bio{
     text-decoration: none; 
     color: black;
+    background-color: yellow;
 }
 a:hover.hyperlink-bio{
     background-color: yellow;
+    text-decoration: underline;
 }
 .LongText{
     display: none;
 }
 .navbar{
-    font-family: "Roboto",sans-serif;
+    font-family: "roboto",sans-serif;
     font-weight: 300;
     margin-bottom: 0px;
     border: none;
+    
 }
 
 .navbar-default .navbar-brand {
     color: #000;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 300;
 }
 .navbar-header {
@@ -90,8 +92,8 @@ a:hover.hyperlink-bio{
 .navbar-default {
     background-color: #fff;
     border-color: #fff;
-    padding-left: 4%;
-    padding-right: 4%;
+    max-width: 92%;
+    margin: auto;
 }
 .navbar-nav{
     margin: 0;
@@ -101,13 +103,17 @@ a:hover.hyperlink-bio{
 }
 .navbar-nav a:hover::before, .navbar-nav a.active-page:before {
     position: absolute;
-    content:'/';
     top: 10px;
     left: 0px;
+    text-decoration: underline;
+}
+
+a.active-page{
+    text-decoration: underline;
 }
 
 body {
-    font-family: "Roboto",sans-serif;
+    font-family: "Roboto Sans",sans-serif;
     color: #000;
     font-weight: 300;
     font-size: 14px;
@@ -135,17 +141,8 @@ body {
     padding-top: 70px;
     padding-bottom: 60px;
 }
-.container_footer{
-    margin: auto;
-    max-width: 85%;
-}
 .row.main.me.footer2{
     background-color: #F9F9F9;
-    margin-bottom: 0px;
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
-.NavRow.main.me.footer2{
     margin-bottom: 0px;
     padding-top: 50px;
     padding-bottom: 20px;
@@ -153,29 +150,13 @@ body {
 h3{
     font-weight: bold;
     font-family: 'Roboto Condensed';
-}
-.title{
-    font-weight: 700;
-    font-size: 1.3em;
-    line-height: 4em;
-}
-.name{
-    font-weight: 800;
-    font-size: 1.1em;
-}
-.time{
-    font-weight: 400;
-    margin-bottom: .8em;
-    font-size: 1.1em;
-}
-.descrip{
-    font-size: 1.1em;
+    font-size: 28px;
 }
 .subhead{
     font-weight: 600;
     font-size: 13px;
     line-height: 30px;
-    font-family: "Roboto",sans-serif;
+    font-family: 'Roboto';
 }
 .subhead2{
     font-weight: 400;
@@ -198,14 +179,10 @@ h3{
 .row {
   margin-bottom: 0px;
 }
-.NavRow {
-  margin-bottom: 0px;
-}
 
 .row.main {
     font-weight: 100;
     background-color: #ffffff;
-    padding-top: 30px;
     padding-bottom: 30px;
 }
 
@@ -215,19 +192,16 @@ h3{
     padding-left: 10px;
     padding-right: 10px;
 }
-
+.footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
 .row.secondary {
   background-color: #FAA519;
 }
 
 .project-info {
-  padding: 0;
-}
-.project-info-projects {
-  padding: 0;
-}
-.project-info-body {
   padding: 0;
 }
 .project-info-footer {
@@ -289,9 +263,6 @@ h3{
 .project-title3 span.subtitle-index{
     color: #000000;
 }
-.footer{
-    background-color: #F9F9F9;
-}
 .fontsize-index{
     font-size: 1em;
     line-height: 20px;
@@ -331,7 +302,7 @@ h3{
 
 .project-title3 span {
     font-size: 14px;
-    font-family: "Roboto",sans-serif;
+    font-family: 'roboto';
     font-weight: 500;
 }
 
@@ -368,7 +339,7 @@ h3{
 .details {
     font-size: 13px;
     font-weight: 100;
-    font-family: 'Roboto';
+    font-family: 'roboto';
 }
 
 .project-descrip2{
@@ -421,9 +392,7 @@ blockquote{
     padding: 12px;
     text-decoration: none;
 }
-.content{
-    margin-top: 2%;
-}
+
 .footer-link:hover{
     padding: 12px;
     text-decoration: none;
@@ -449,9 +418,6 @@ blockquote{
 }
  .footer-text a:hover{
      text-decoration:underline;
-}
-.fa:hover {
-    color: #CA467A;
 }
 .center{
     margin-top: 55px;
@@ -483,6 +449,69 @@ blockquote{
     margin-left: -30px;
     margin-right: -30px;
 }
+.aboutinfo {
+    background-color: #f3f3f3;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.aboutbackground {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.container_full_bleed {
+    max-width: 100%;
+}
+.container_project {
+    margin: auto;
+    max-width: 92%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+a.button_portfolio {
+    font-size: 18px;
+    font-weight: 100;
+    background-color: yellow;
+}
+a:visited.button_portfolio{
+    text-decoration: none; 
+    color: black;
+    background-color: yellow;
+}
+a:hover.button_portfolio{
+    background-color: yellow;
+    color: black;
+    text-decoration: underline;
+}
+.social_icons{
+    margin-bottom: 30px;
+}
+.resume{
+    padding-bottom: 15px;
+}
+.title{
+    font-weight: 700;
+    font-size: 1.3em;
+    line-height: 4em;
+}
+.name{
+    font-weight: 800;
+    font-size: 1.0em;
+}
+.time{
+    font-weight: 400;
+    margin-bottom: .8em;
+    font-size: 1.0em;
+}
+.descrip{
+    font-size: 1.0em;
+}
+.full_image_about {
+    max-width: 100%;
+    margin: 5px auto 0px auto;
+}
+.container_full_bleed{
+    max-width: 100%;
+}
 
 
 @media (min-width: 768px){
@@ -493,10 +522,10 @@ blockquote{
         padding-left: 7%;
         padding-right: 7%;
     }
-    .row.main{
+    /*.row.main{
         padding-left: 15px;
         padding-right: 15px;
-    }
+    }*/
     header{
     margin-left: auto;
     margin-right: auto;
@@ -505,14 +534,6 @@ blockquote{
     margin-left: -15px;
     margin-right: -15px;
 }
-    .Pad{
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-    .row.main{
-        padding-left: 0px;
-        padding-right: 0px;
-    }
 }
 
 @media (min-width: 768px){
@@ -542,13 +563,6 @@ blockquote{
         float: left;
         width: 65%;
     }
-    .project-info-projects{
-        float: left;
-        width: 65%;
-    }
-    .project-info-body{
-        float: left;
-    }
     /*.project-info-index{
         padding-left: 35px;
         padding-right: 35px;
@@ -572,11 +586,9 @@ blockquote{
     padding-left: 5.3%;
     padding-right: 5.3%;
     }
-    .NavRow.main.me.footer2{
-    padding-left: 5.3%;
-    padding-right: 5.3%;
+    .footer{
+        padding-bottom: 150px;
     }
-
     .footer-float{
         margin-top: 20px;
     }
@@ -599,10 +611,6 @@ blockquote{
     .row.main.me{
     }
     .row.main.me.footer2{
-    padding-left: 1%;
-    padding-right: 1%;
-    }
-    .NavRow.main.me.footer2{
     padding-left: 1%;
     padding-right: 1%;
     }
@@ -674,14 +682,10 @@ blockquote{
     .img-size{
         width: 100%;
     }
-    .row{
+    /*.row{
         margin-left: auto;
         margin-right: auto;
-    }
-    .NavRow{
-        margin-left: auto;
-        margin-right: auto;
-    }
+    }*/
     .index{
         font-size: 16px;
         line-height: 26px;
@@ -694,12 +698,9 @@ blockquote{
     padding-left: 9%;
     padding-right: 9%;
     }
-    .NavRow.main.me.footer2{
-    padding-left: 9%;
-    padding-right: 9%;
-    padding-bottom: 100px;    
+    .footer{
+        padding-bottom: 150px;
     }
-
     .Banner-NoPadding{
         padding-left: 0px;
     }
@@ -754,18 +755,9 @@ blockquote{
     padding-left: 15.4%;
     padding-right: 15.4%;
     }
-    .NavRow.main.me.footer2{
-    padding-left: 15.4%;
-    padding-right: 15.4%;
-    padding-bottom: 100px;
-    }
     .project-info{
         float: left;
         width: 65%;
-    }
-    .project-info-projects{
-        float: left;
-        width: 33%;
     }
 }
 
@@ -787,18 +779,12 @@ blockquote{
     .Banner-NoPadding2{
         padding-left: 0px;
     }
-    .row.main.me.footer2{
-        padding-left: 20%;
-        padding-right: 20%;
-    }
-    .NavRow.main.me.footer2{
-        padding-left: 20%;
-        padding-right: 20%;
-    }
 }
 
 .nav>li {
     display: inline-block;
+    padding-right: 13px;
+    padding-top: 8px;
 }
 
 
@@ -818,53 +804,64 @@ blockquote{
     .navbar-brand{
         padding-left: 0px;
     }
-    .navbar-default .navbar-brand {
-    font-size: 18px;
+}
+
+
+
+
+
+
+@media (max-width: 699px) and (min-width: 625px){
+.container_project {
+    margin: auto;
+    max-width: 80%;
+    padding-top: 6%;
     }
 }
 
-@media (min-width: 375px){
-    .navbar-nav{
-        float: left;
-        margin: 0;
-    }
-    .navbar-right{
-        float: right!important;
-        margin-right: -15px;
-    }
-    .navbar-nav{
-        padding-top: 6px;
-    }
-    .navbar-default .navbar-brand {
-    padding-left: 0px;
-    }
-    .NavRow{
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-}
-@media (max-width: 699px) and (min-width: 625px){
-    .container-footer{
-        margin: auto;
-        max-width: 80%;
-    }
-}
 @media (max-width: 854px) and (min-width: 700px){
-    .container-footer{
-        margin: auto;
-        max-width: 80%;
+.container_project {
+    margin: auto;
+    max-width: 80%;
+    padding-top: 4%;
+    }
+}
+
+@media (max-width: 1055px) and (min-width: 855px){
+.container_project {
+    margin: auto;
+    max-width: 67%;
+    padding-top: 2%;
+    }
+}
+
+@media (min-width: 1056px){
+.container_project {
+    margin: auto;
+    max-width: 54%;
+    padding-top: 1%;
+    }
+}
+
+@media (max-width: 699px) and (min-width: 625px){
+.navbar-default {
+    max-width: 80%;
+    }
+}
+
+@media (max-width: 854px) and (min-width: 700px){
+.navbar-default {
+    max-width: 80%;
     }
 }
 @media (max-width: 1055px) and (min-width: 855px){
-    .container-footer{
-        margin: auto;
-        max-width: 67%;
+.navbar-default {
+    max-width: 67%;
     }
 }
 @media (min-width: 1056px){
-    .container-footer{
-        margin: auto;
-        max-width: 54%;
+.navbar-default {
+    max-width: 54%;
     }
 }
 
@@ -881,4 +878,3 @@ blockquote{
         border: 10px solid pink;
     }
 }*/
-- - - - - - -
