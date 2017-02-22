@@ -798,11 +798,17 @@ a:hover.button_portfolio{
     padding-top: 8px;
 }
 
+@media (min-width: 375px){
+    .navbar-nav{
+        float: right;
+        margin: 7px 0 0 0;
+    }
+}
 
 @media (min-width: 400px){
-.navbar-nav {
-    float: left ;
-    margin: 0;
+    .navbar-nav {
+        float: left ;
+        margin: 0;
 }
     .container-footer{
         padding-bottom: 40px;
