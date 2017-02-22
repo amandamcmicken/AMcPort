@@ -154,7 +154,7 @@ h3{
 }
 .subhead{
     font-weight: 600;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 30px;
     font-family: 'Roboto';
 }
@@ -202,6 +202,9 @@ h3{
 }
 
 .project-info {
+  padding: 0;
+}
+.project-info-proj {
   padding: 0;
 }
 .project-info-footer {
@@ -563,6 +566,10 @@ a:hover.button_portfolio{
         float: left;
         width: 65%;
     }
+    .project-info-proj{
+        float: left;
+        width: 65%;
+    }
     /*.project-info-index{
         padding-left: 35px;
         padding-right: 35px;
@@ -759,6 +766,10 @@ a:hover.button_portfolio{
         float: left;
         width: 65%;
     }
+    .project-info-proj{
+        float: left;
+        width: 33%;
+    }
 }
 
 @media (min-width: 1200px){
@@ -844,24 +855,47 @@ a:hover.button_portfolio{
 }
 
 @media (max-width: 699px) and (min-width: 625px){
-.navbar-default {
+    .navbar-default {
     max-width: 80%;
+    }
+    .full_image_about {
+    max-width: 80%;
+    margin: 5px auto 0px auto;
+    display: block;
     }
 }
 
 @media (max-width: 854px) and (min-width: 700px){
-.navbar-default {
+    .navbar-default {
     max-width: 80%;
     }
+    .full_image_about {
+    max-width: 80%;
+    margin: 5px auto 0px auto;
+    display: block;
+    }
+    
 }
 @media (max-width: 1055px) and (min-width: 855px){
-.navbar-default {
+    .navbar-default {
     max-width: 67%;
+    padding-bottom: 30px;
+    }
+    .full_image_about {
+    max-width: 67%;
+    margin: 5px auto 0px auto;
+    display: block;
     }
 }
 @media (min-width: 1056px){
-.navbar-default {
+    .navbar-default {
+        max-width: 54%;
+        padding-bottom: 45px;
+    }
+    .full_image_about {
     max-width: 54%;
+    margin: 5px auto 0px auto;
+    display: block;
     }
 }
 
