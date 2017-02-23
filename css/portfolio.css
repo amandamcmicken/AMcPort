@@ -141,12 +141,7 @@ body {
     padding-top: 70px;
     padding-bottom: 60px;
 }
-.row.main.me.footer2{
-    background-color: #F9F9F9;
-    margin-bottom: 0px;
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
+
 h3{
     font-weight: bold;
     font-family: 'Roboto Condensed';
@@ -187,6 +182,12 @@ h3{
 }
 
 .row.footer {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.row.footer2 {
     padding-top: 50px;
     padding-bottom: 40px;
     padding-left: 10px;
@@ -589,10 +590,6 @@ a:hover.button_portfolio{
         max-width: 55%;
     }
 
-    .row.main.me.footer2{
-    padding-left: 5.3%;
-    padding-right: 5.3%;
-    }
     .footer{
         padding-bottom: 150px;
     }
@@ -617,14 +614,17 @@ a:hover.button_portfolio{
     }
     .row.main.me{
     }
-    .row.main.me.footer2{
-    padding-left: 1%;
-    padding-right: 1%;
-    }
+
 }
 @media (min-width: 500px){
     .LongText{
         display: block;
+    }
+}
+@media (max-width: 624px){
+    .row.footer2{
+        margin: auto;
+        max-width: 100%;
     }
 }
 @media (max-width: 854px) and (min-width: 625px){
@@ -632,17 +632,29 @@ a:hover.button_portfolio{
         margin: auto;
         max-width: 80%;
     }
+    .row.footer2{
+        margin: auto;
+        max-width: 84%;
+    }
 }
 @media (max-width: 1055px) and (min-width: 855px){
     .row.footer{
         margin: auto;
         max-width: 67%;
     }
+    .row.footer2{
+        margin: auto;
+        max-width: 72%;
+    }
 }
 @media (min-width: 1056px){
     .row.footer{
         margin: auto;
         max-width: 54%;
+    }
+    .row.footer2{
+        margin: auto;
+        max-width: 57%;
     }
 }
 
@@ -701,11 +713,11 @@ a:hover.button_portfolio{
         padding-left: 6.5%;
         padding-right: 6.5%;
     }
-    .row.main.me.footer2{
-    padding-left: 9%;
-    padding-right: 9%;
-    }
+
     .footer{
+        padding-bottom: 150px;
+    }
+    .footer2{
         padding-bottom: 150px;
     }
     .Banner-NoPadding{
@@ -758,10 +770,7 @@ a:hover.button_portfolio{
     padding-left: 15.4%;
     padding-right: 15.4%;
     }
-    .row.main.me.footer2{
-    padding-left: 15.4%;
-    padding-right: 15.4%;
-    }
+
     .project-info{
         float: left;
         width: 65%;
