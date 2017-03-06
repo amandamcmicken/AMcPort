@@ -328,12 +328,14 @@ h3{
 }
 
 .project-descrip p {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 100;
-  line-height: 20px;
+  line-height: 23px;
   padding-top: 0px;    
 }
-
+.fa:hover{
+    color: #A9B79C;
+}
 .project-descrip p.index {
   font-size: 14px;
   line-height: 20px;
