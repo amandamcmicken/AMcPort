@@ -297,20 +297,20 @@ h3{
 
  {
     font-size: 16px;
-    font-family: 'roboto condensed';
+    font-family: 'Roboto Condensed';
     font-weight: 100;
 }
 
 .project-title2 span {
     font-size: 16px;
-    font-family: 'roboto condensed';
+    font-family: 'Roboto Condensed';
     line-height: 22px;
     font-weight: 100;
 }
 
 .project-title3 span {
     font-size: 14px;
-    font-family: 'roboto';
+    font-family: "Roboto Sans",sans-serif;
     font-weight: 500;
 }
 
