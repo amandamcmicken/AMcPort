@@ -42,7 +42,6 @@ a:hover.hyperlink{
 a.hyperlink-bio{
     position: relative;
     color: black;
-    background-color: yellow;
 }
 a:visited.hyperlink-bio{
     text-decoration: none; 
@@ -65,9 +64,9 @@ a:hover.hyperlink-bio{
 }
 
 .navbar-default .navbar-brand {
-    color: #000;
-    font-size: 20px;
-    font-weight: 300;
+    color: #1A1A1F;
+    font-size: 58px;
+    font-weight: 600;
 }
 .navbar-default .navbar-brand:hover {
     color: #000;
@@ -114,14 +113,15 @@ a:hover.hyperlink-bio{
 
 a.active-page{
     text-decoration: underline;
+    background-color: yellow;
 }
 
 body {
     font-family: "Roboto Sans",sans-serif;
     color: #000;
     font-weight: 300;
-    font-size: 14px;
-    line-height: 22px;
+    font-size: 18px;
+    line-height: 1.4em;
     overflow-x: hidden;
 }
 .ContainerNoBleed{
@@ -136,8 +136,13 @@ body {
 .details p{
     line-height: 20px;
 }
+.full-bleed{
+    background-color: #000000;
+}
 .callout{
-    font-weight: 600;
+    background-color: antiquewhite;
+    line-height: 1.4em;
+    font-size: 18px;
 }
 .row.main.me{
     background-color: #FFE588;
@@ -147,15 +152,49 @@ body {
 }
 
 h3{
+    font-weight: 100;
+    font-family: 'Roboto Condensed';
+    font-size: 35px;
+    color: #ffffff;
+}
+h1{
     font-weight: bold;
     font-family: 'Roboto Condensed';
-    font-size: 28px;
+    font-size: 18px;
+    border-bottom: 3px solid black;
+    letter-spacing: 1.3px;
+}
+.h1-proj{
+    font-weight: bold;
+    font-family: 'Roboto Condensed';
+    font-size: 18px;
+    border-bottom: 3px solid black;
+    letter-spacing: 1.3px;
+    margin-bottom: 1%;
+}
+h2{
+    font-weight: light;
+    font-family: 'Roboto Condensed';
+    font-size: 13px;
+    margin-top: 0px;
+}
+.role-margin{
+    margin-bottom: 45px;
 }
 .subhead{
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 30px;
-    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 1.3px;
+    font-family: 'Roboto Condensed';
+}
+hr{
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 42%;
+    margin-right: 42%;
+    border-width: 2px;
+    border-color: #000;
 }
 .subhead2{
     font-weight: 400;
@@ -163,15 +202,30 @@ h3{
     line-height: 13px;
     padding-bottom: 7px;
     font-family: 'Roboto Condensed';
+    letter-spacing: 1.3px;
 }
 .subhead3{
     font-weight: 600;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 13px;
     font-family: 'Roboto Condensed';
     margin-top: 20px;
 }
-
+.quote{
+    font-size: 30px;
+    color: #000000;
+    font-weight: 400;
+    line-height: 1.1em;
+    letter-spacing: 1.3px;
+}
+.intro{
+    max-width: 92%;
+    margin: auto;
+    /*padding-bottom: 15%;*/
+}
+.col-sm-12, col-md-6{
+    padding: 0px;
+}
 .row.ind {
   margin-bottom: 50px;
 }
@@ -181,8 +235,8 @@ h3{
 
 .row.main {
     font-weight: 100;
-    background-color: #ffffff;
     padding-bottom: 30px;
+    text-align: center;
 }
 
 .row.footer {
@@ -308,11 +362,11 @@ h3{
     font-weight: 100;
 }
 
-.project-title3 span {
+/*.project-title3 span {
     font-size: 14px;
     font-family: "Roboto Sans",sans-serif;
     font-weight: 500;
-}
+}*/
 
 .project-descrip {
   padding: 0px 15px 5px 0px;
@@ -328,22 +382,18 @@ h3{
 }
 
 .project-descrip p {
-  font-size: 16px;
-  font-weight: 100;
-  line-height: 23px;
   padding-top: 0px;    
 }
 .fa:hover{
     color: #A9B79C;
 }
 .project-descrip p.index {
-  font-size: 14px;
-  line-height: 20px;
+    line-height: 22px;
     font-weight: 100;
 }
 .Num{
-    font-size: 30px;
-    color: #FF8B8B;
+    font-size: 53px;
+    color: #000000;
     font-weight: 600;
 }
 .details {
@@ -353,7 +403,9 @@ h3{
 }
 
 .project-descrip2{
-    padding-left: 0px;
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 70px;
     font-size: 13px;
     line-height: 19px;
 }
@@ -368,10 +420,12 @@ h3{
 
 .project-descrip a:hover {
   text-decoration: underline;
+  color: #000000;
 }
 .emoji{
     vertical-align:baseline;
 }
+
 .project-image:hover {
   border-bottom: 5px solid yellow;
 }
@@ -383,8 +437,17 @@ h3{
 }
 
 blockquote{
-    border-left: 1px solid #86E99B;
+    border-left: 2px solid #000000;
     padding: 0px 10px;
+}
+
+.view-link-footer{
+    font-size: 25px;
+    font-weight: 100;
+    background-color: yellow;
+}
+.view-link-footer:hover{
+    text-decoration: underline;
 }
 
 .view-link{
@@ -461,8 +524,8 @@ blockquote{
 }
 .aboutinfo {
     background-color: #f3f3f3;
-    padding-top: 10px;
-    padding-bottom: 15px;
+    /*padding-top: 10px;
+    padding-bottom: 15px;*/
 }
 .aboutbackground {
     padding-top: 10px;
@@ -473,44 +536,100 @@ blockquote{
 }
 .container_project {
     margin: auto;
-    max-width: 92%;
-    padding-top: 5%;
-    padding-bottom: 2%;
+    max-width: 86%;
+    padding-top: 14%;
+    padding-bottom: 10%;
 }
 a.button_portfolio {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 100;
+    /* background-color: yellow; */
+    display: inline-block;
+    width: 100%;
+    line-height: 80px;
+    text-align: center;
+}
+a.button_social {
+    font-size: 16px;
+    font-weight: 100;
+    /* background-color: yellow; */
+    display: inline-block;
+    margin: 25px;
+    text-align: center;
+}
+.name-footer{
+    font-size: 12px;
+    line-height: 12px;
+}
+.social-component{
+    display: inline;
+    box-sizing: border-box;
+    float: left;
+    width: 33.3%;
+}
+.social{
+    line-height: 35px;
+    font-size: 14px;
+}
+.social-margin{
+    margin-top: 20px;
+}
+.social a{
+    border-bottom: 1px solid #F8E81C;
+}
+.social a:hover{
+    color: black;
     background-color: yellow;
+    border-bottom: none;
+    text-decoration: none;
 }
 a:visited.button_portfolio{
     text-decoration: none; 
     color: black;
-    background-color: yellow;
 }
 a:hover.button_portfolio{
     background-color: yellow;
     color: black;
     text-decoration: underline;
 }
+a.right_border{
+    border-right: 1px;
+}
+a.underline{
+    text-decoration: underline;
+}
+a:visited.underline{
+    text-decoration: underline;
+}
 .social_icons{
     margin-bottom: 30px;
+}
+.info-component{
+    display: inline-block;
+    /*width: 100%;*/
+    box-sizing: border-box;
+    float: left;
 }
 .resume{
     padding-bottom: 15px;
 }
 .title{
-    font-weight: 700;
+    font-weight: 300;
     font-size: 1.3em;
     line-height: 4em;
+    letter-spacing: 1.3px;
+    font-family: 'Roboto Condensed';
 }
 .name{
     font-weight: 800;
     font-size: 1.0em;
+    font-family: 'Roboto Condensed';
 }
 .time{
-    font-weight: 400;
+    font-weight: 300;
     margin-bottom: .8em;
     font-size: 1.0em;
+    font-family: 'Roboto Condensed';
 }
 .descrip{
     font-size: 1.0em;
@@ -521,6 +640,22 @@ a:hover.button_portfolio{
 }
 .container_full_bleed{
     max-width: 100%;
+}
+.name-bold{
+    letter-spacing: 1.3px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    line-height: 30px;
+}
+.footer-title{
+    font-size: 30px;
+    line-height: 32px;
+}
+.footer-subtitle{
+    font-size: 18px;
+    font-family: 'Roboto Condensed';
+    margin-top: 1.5%;
+    font-weight: 400;
 }
 
 
@@ -561,21 +696,24 @@ a:hover.button_portfolio{
 
 
 @media (min-width: 625px){
-    .project-descrip2 .details{
+    /*.project-descrip2 .details{
         padding-left: 75%;
         padding-top: 20px;
-    }
+    }*/
     .project-descrip2 .details-bio{
         padding-left: 0%;
         padding-top: 20px;
     }
-    .project-info{
+    /*.project-info{
         float: left;
         width: 65%;
+    }*/
+    .project-info2{
+        float: left;
+        width: 100%;
     }
     .project-info-proj{
         float: left;
-        width: 65%;
     }
     /*.project-info-index{
         padding-left: 35px;
@@ -661,6 +799,11 @@ a:hover.button_portfolio{
     .row.footer2{
         margin: auto;
         max-width: 57%;
+    }
+    .h1-proj{
+        margin-right: 50%;
+        margin-bottom: 3%;
+        line-height: 1.1em;
     }
 }
 
@@ -776,14 +919,29 @@ a:hover.button_portfolio{
     padding-left: 15.4%;
     padding-right: 15.4%;
     }
-
     .project-info{
         float: left;
-        width: 65%;
+    }
+    .project-info2{
+        float: left;
+        width: 100%;
     }
     .project-info-proj{
         float: left;
         width: 33%;
+    }
+    .role-margin{
+        margin-right: 45px;
+    }
+    h1{
+        margin-top: 0px;
+    }
+    .social{
+        line-height: 45px;
+        margin-top: -10px;
+    }
+    .footer-title{
+        width: 95%;
     }
 }
 
@@ -844,35 +1002,83 @@ a:hover.button_portfolio{
 
 
 @media (max-width: 699px) and (min-width: 625px){
-.container_project {
-    margin: auto;
-    max-width: 80%;
-    padding-top: 6%;
+    .container_project {
+        margin: auto;
+        max-width: 75%;
+        padding-top: 13%;
+        padding-bottom: 13%;
     }
+    .subhead{
+        font-size: 14px;
+    }
+    .intro{
+    max-width: 80%;
+    }
+    .quote{
+    font-size: 34px;
+}
 }
 
 @media (max-width: 854px) and (min-width: 700px){
 .container_project {
     margin: auto;
-    max-width: 80%;
-    padding-top: 4%;
+    max-width: 75%;
+    padding-top: 13%;
+    padding-bottom: 13%;
     }
+.subhead{
+    font-size: 16px;
+}
+.intro{
+    max-width: 80%;
+    }
+.quote{
+    font-size: 34px;
+}
+}
+
+@media (max-width: 1055px) and (min-width: 922px){
+    .h1-proj{
+        margin-bottom: 3%;
+        margin-right: 56%;
+        line-height: 1.1em;
+    }    
 }
 
 @media (max-width: 1055px) and (min-width: 855px){
 .container_project {
     margin: auto;
-    max-width: 67%;
-    padding-top: 2%;
+    max-width: 64%;
+    padding-top: 10%;
+    padding-bottom: 10%;
     }
+.subhead{
+    font-size: 16px;
+    }
+.intro{
+    max-width: 67%;
+    } 
+.quote{
+    font-size: 36px;
+}
 }
 
 @media (min-width: 1056px){
 .container_project {
     margin: auto;
-    max-width: 54%;
-    padding-top: 1%;
+    max-width: 51%;
+    padding-top: 10%;
+    padding-bottom: 10%;
     }
+.subhead{
+    font-size: 16px;
+    }
+.intro{
+    max-width: 54%;
+    }
+.quote{
+    font-size: 38px;
+}
 }
 
 @media (max-width: 699px) and (min-width: 625px){
@@ -884,39 +1090,93 @@ a:hover.button_portfolio{
     margin: 5px auto 0px auto;
     display: block;
     }
+    a.button_portfolio {
+    background-color: #f3f3f3;
+    width: 50%;
+    float: left;
+    }
+    .project-title2 h3{
+        font-size: 40px;
+    }
 }
 
 @media (max-width: 854px) and (min-width: 700px){
     .navbar-default {
     max-width: 80%;
+    padding-bottom: 1%;
     }
     .full_image_about {
     max-width: 80%;
     margin: 5px auto 0px auto;
     display: block;
     }
-    
+    a.button_portfolio {
+    background-color: #f3f3f3;
+    width: 22%;
+    float: left;
+    }
+    .social-component{
+    width: 18%;
+    }
+    a.button_social{
+    margin-top: 23%;
+    }
+    .project-title2 h3{
+        font-size: 45px;
+    }
 }
 @media (max-width: 1055px) and (min-width: 855px){
     .navbar-default {
     max-width: 67%;
-    padding-bottom: 30px;
+    padding-bottom: 1%;
     }
     .full_image_about {
     max-width: 67%;
     margin: 5px auto 0px auto;
     display: block;
+    }
+    a.button_portfolio {
+    width: 22%;
+    float: left;
+    background-color: #f3f3f3;
+    }
+    .social-component{
+    width: 18%;
+    }
+    a.button_social{
+    margin-top: 19%;
+    }
+    .project-title2 h3{
+        font-size: 50px;
     }
 }
 @media (min-width: 1056px){
     .navbar-default {
         max-width: 54%;
-        padding-bottom: 45px;
+        padding-bottom: 1%;
     }
     .full_image_about {
     max-width: 54%;
     margin: 5px auto 0px auto;
     display: block;
+    }
+    a.button_portfolio {
+    width: 22%;
+    float: left;
+    background-color: #f3f3f3;
+    }
+    .social-component{
+    width: 18%;
+    }
+    a.button_social{
+    margin-top: 17%;
+    }
+    .component-wrapper{
+        max-width: 80%;
+        margin: auto;
+    }
+    .project-title2 h3{
+        font-size: 50px;
     }
 }
 
