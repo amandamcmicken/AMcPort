@@ -1,6 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed)
 @import url(https://fonts.googleapis.com/css?family=Roboto)
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,300,400,500,700')
 
+
+
+    
 .ClassWithPad{
     padding: 10px;
     margin: 10px;
@@ -8,6 +12,77 @@
 .container{
     
 }
+.intro-text{
+    font-weight: bold;
+    font-family: 'Open Sans';
+    font-size: 35px;
+    line-height: 47px;
+    color: #000;
+}
+h1{
+    font-weight: bold;
+    font-family: 'Open Sans';
+    font-size: 30px;
+    letter-spacing: 1.3px;
+}
+.title{
+    font-weight: 300;
+    font-size: 1.1em;
+    line-height: 4em;
+    letter-spacing: 1.3px;
+    font-family: 'Open Sans';
+}
+.name{
+    font-weight: 700;
+    font-size: 0.8em;
+    font-family: 'Open Sans';
+}
+.time{
+    font-weight: 300;
+    margin-bottom: .8em;
+    font-size: 0.8em;
+    font-family: 'Open Sans';
+}
+.details-bio{
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #000;
+}
+.caption{
+    font-size: .8em;
+    line-height: 1.5em;
+    color: #4A4A4A;
+}
+
+.h1-proj{
+    font-weight: bold;
+    font-family: 'Open Sans';
+    font-size: 22px;
+    margin-bottom: 1%;
+    color: #000;
+}
+h2{
+    font-weight: light;
+    font-family: 'Open Sans';
+    font-size: 13px;
+    margin-top: 0px;
+    color: #4A4A4A;
+}
+.project-descrip p {
+    padding-top: .8%;
+    font-size: 1em;
+    color: #4A4A4A;
+}
+.navbar-brand{
+    padding-right: 0px;
+}
+
+
+
+
+
+
+
 .container-index{
     padding-left: 25px;
     padding-right: 25px;
@@ -49,14 +124,27 @@ a:hover.hyperlink{
 a.hyperlink-bio{
     position: relative;
     color: black;
+    background-color: yellow;
 }
 a:visited.hyperlink-bio{
     text-decoration: none; 
-    color: black;
+    color: #000;
     background-color: yellow;
 }
 a:hover.hyperlink-bio{
     background-color: yellow;
+    text-decoration: underline;
+}
+a.hyperlink-bio2{
+    position: relative;
+    color: black;
+    text-decoration: underline;
+}
+a:visited.hyperlink-bio2{
+    text-decoration: none; 
+    color: #000;
+}
+a:hover.hyperlink-bio2{
     text-decoration: underline;
 }
 .LongText{
@@ -71,8 +159,8 @@ a:hover.hyperlink-bio{
 }
 
 .navbar-default .navbar-brand {
-    color: #1A1A1F;
-    font-size: 58px;
+    color: #000;
+    font-size: 30px;
     font-weight: 600;
 }
 .navbar-default .navbar-brand:hover {
@@ -99,9 +187,10 @@ a:hover.hyperlink-bio{
     color: #000;
     font-size: 12px;
 }
+
 .navbar-default {
-    background-color: #fff;
-    border-color: #fff;
+    background-color: #FAFAFA;
+    border-color: #FAFAFA;
     max-width: 92%;
     margin: auto;
 }
@@ -130,6 +219,7 @@ body {
     font-size: 18px;
     line-height: 1.4em;
     overflow-x: hidden;
+    background-color: #FAFAFA;
 }
 .ContainerNoBleed{
     padding: 0px;
@@ -144,12 +234,15 @@ body {
     line-height: 20px;
 }
 .full-bleed{
-    background-color: #000000;
+    background-color: #FAFAFA;
+}
+.full-bleed-orange{
+    background-color: yellow;
 }
 .callout{
     background-color: antiquewhite;
     line-height: 1.4em;
-    font-size: 18px;
+    font-size: 1em;
 }
 .row.main.me{
     background-color: #FFE588;
@@ -160,39 +253,51 @@ body {
 
 h3{
     font-weight: 100;
-    font-family: 'Roboto Condensed';
+    font-family: 'Open Sans';
     font-size: 35px;
-    color: #ffffff;
+    color: #000;
 }
-h1{
-    font-weight: bold;
-    font-family: 'Roboto Condensed';
-    font-size: 18px;
-    border-bottom: 3px solid black;
-    letter-spacing: 1.3px;
+.icon{
+    display: inline;
+    margin-top: .5%;
 }
-.h1-proj{
-    font-weight: bold;
-    font-family: 'Roboto Condensed';
-    font-size: 18px;
-    border-bottom: 3px solid black;
-    letter-spacing: 1.3px;
-    margin-bottom: 1%;
+a.back-to-top {
+    display: none;
+    width: 45px;
+    height: 45px;
+    text-indent: -9999px;
+    position: fixed;
+    z-index: 999;
+    right: 15px;
+    bottom: 20px;
+    background: #000 url(images/up-arrow.svg) no-repeat center 43%;
+    background-size: 60%;
 }
-h2{
-    font-weight: light;
-    font-family: 'Roboto Condensed';
-    font-size: 13px;
-    margin-top: 0px;
+a:hover.back-to-top {
+    background: yellow no-repeat center 43%;
+    background-size: 60%;
 }
+a:focus, a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
 .role-margin{
     margin-bottom: 45px;
 }
 .subhead{
-    font-weight: 400;
+    font-weight: 600;
     font-size: 13px;
     letter-spacing: 1.3px;
-    font-family: 'Roboto Condensed';
+    font-family: 'Open Sans';
+    color: #000;
+}
+.subhead4{
+    font-weight: 400;
+    font-size: .8em;
+    letter-spacing: 1.3px;
+    font-family: 'Open Sans';
+    color: #4A4A4A;
 }
 hr{
     display: block;
@@ -204,26 +309,31 @@ hr{
     border-color: #000;
 }
 .subhead2{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 13px;
-    padding-bottom: 7px;
-    font-family: 'Roboto Condensed';
-    letter-spacing: 1.3px;
-}
-.subhead3{
     font-weight: 600;
     font-size: 14px;
     line-height: 13px;
-    font-family: 'Roboto Condensed';
+    padding-bottom: 15px;
+    font-family: 'Open Sans';
+    letter-spacing: 1.3px;
+    color: #000;
+}
+.subhead3{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 13px;
+    font-family: 'Open Sans';
     margin-top: 20px;
+    color: #4A4A4A;
 }
 .quote{
     font-size: 30px;
-    color: #000000;
-    font-weight: 400;
-    line-height: 1.1em;
+    color: #000;
+    font-weight: 100;
+    line-height: 1.4em;
     letter-spacing: 1.3px;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    font-family: 'Roboto Mono', monospace;
 }
 .intro{
     max-width: 92%;
@@ -237,13 +347,15 @@ hr{
   margin-bottom: 50px;
 }
 .row {
-  margin-bottom: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .row.main {
     font-weight: 100;
     padding-bottom: 30px;
-    text-align: center;
+    text-align: left;
 }
 
 .row.footer {
@@ -261,6 +373,7 @@ hr{
 .footer{
     padding-top: 50px;
     padding-bottom: 50px;
+    clear: both;
 }
 
 .row.secondary {
@@ -326,7 +439,7 @@ hr{
   margin-top: 0px;
   margin-bottom: 0px;
   font-weight: 400;
-  font-family: 'roboto condensed';
+  font-family: 'Open Sans';
   color: #000000;
 }
 .project-title3 span.subtitle-index{
@@ -346,25 +459,25 @@ hr{
 .project-title3 h3 span {
   font-weight: 100;
     font-size: 16px;
-    font-family: 'roboto condensed';
+    font-family: 'Open Sans';
     font-weight: 100;
 }
 
 .project-title3 h4 span {
   font-weight: 100;
-  font-family: 'roboto condensed';
+  font-family: 'Open Sans';
 
 }
 
  {
     font-size: 16px;
-    font-family: 'Roboto Condensed';
+    font-family: 'Open Sans';
     font-weight: 100;
 }
 
 .project-title2 span {
     font-size: 16px;
-    font-family: 'Roboto Condensed';
+    font-family: 'Open Sans';
     line-height: 22px;
     font-weight: 100;
 }
@@ -388,11 +501,8 @@ hr{
     padding-right: 0px;
 }
 
-.project-descrip p {
-  padding-top: 0px;    
-}
 .fa:hover{
-    color: #A9B79C;
+    color: #000;
 }
 .project-descrip p.index {
     line-height: 22px;
@@ -405,8 +515,8 @@ hr{
 }
 .details {
     font-size: 13px;
-    font-weight: 100;
-    font-family: 'roboto';
+    font-weight: 300;
+    font-family: 'Open Sans';
 }
 
 .project-descrip2{
@@ -419,10 +529,6 @@ hr{
 .project-descrip2 p.details {
   font-weight: 100;
     padding-top: 0px;
-}
-.details-bio{
-    font-size: 18px;
-    line-height: 1.4em;
 }
 
 .project-descrip a:hover {
@@ -444,17 +550,18 @@ hr{
 }
 
 blockquote{
-    border-left: 2px solid #000000;
+    border-left: 2px solid #4A4A4A;
     padding: 0px 10px;
 }
 
 .view-link-footer{
     font-size: 25px;
     font-weight: 100;
-    background-color: yellow;
+    background-color: white;
 }
 .view-link-footer:hover{
     text-decoration: underline;
+    color: #000;
 }
 
 .view-link{
@@ -523,7 +630,7 @@ blockquote{
     max-width: 75%;
 }
 .footer-background{
-    background-color: #FAFAFA;
+    background-color: yellow;
 }
 .container>.NoPad2{
     margin-left: -30px;
@@ -537,13 +644,14 @@ blockquote{
 .aboutbackground {
     padding-top: 10px;
     padding-bottom: 15px;
+    background-color: yellow;
 }
 .container_full_bleed {
     max-width: 100%;
 }
 .container_project {
     margin: auto;
-    max-width: 86%;
+    max-width: 91%;
     padding-top: 14%;
     padding-bottom: 10%;
 }
@@ -620,24 +728,6 @@ a:visited.underline{
 .resume{
     padding-bottom: 15px;
 }
-.title{
-    font-weight: 300;
-    font-size: 1.3em;
-    line-height: 4em;
-    letter-spacing: 1.3px;
-    font-family: 'Roboto Condensed';
-}
-.name{
-    font-weight: 800;
-    font-size: 1.0em;
-    font-family: 'Roboto Condensed';
-}
-.time{
-    font-weight: 300;
-    margin-bottom: .8em;
-    font-size: 1.0em;
-    font-family: 'Roboto Condensed';
-}
 .descrip{
     font-size: 1.0em;
 }
@@ -660,7 +750,7 @@ a:visited.underline{
 }
 .footer-subtitle{
     font-size: 18px;
-    font-family: 'Roboto Condensed';
+    font-family: 'Open Sans';
     margin-top: 1.5%;
     font-weight: 400;
 }
@@ -808,8 +898,7 @@ a:visited.underline{
         max-width: 57%;
     }
     .h1-proj{
-        margin-right: 50%;
-        margin-bottom: 3%;
+        margin-right: 0%;
         line-height: 1.1em;
     }
 }
@@ -950,6 +1039,12 @@ a:visited.underline{
     .footer-title{
         width: 95%;
     }
+    .project-descrip p{
+        font-size: .8em;
+    }
+    h2{
+        margin-top: 4%;
+    }
 }
 
 @media (min-width: 1200px){
@@ -1011,7 +1106,7 @@ a:visited.underline{
 @media (max-width: 699px) and (min-width: 625px){
     .container_project {
         margin: auto;
-        max-width: 75%;
+        max-width: 80%;
         padding-top: 13%;
         padding-bottom: 13%;
     }
@@ -1022,7 +1117,8 @@ a:visited.underline{
     max-width: 80%;
     }
     .quote{
-    font-size: 34px;
+        font-size: 40px;
+        line-height: 1.2em;
     }
     .NoBottomPadMargin{
     padding-bottom: 0px;
@@ -1031,21 +1127,22 @@ a:visited.underline{
 }
 
 @media (max-width: 854px) and (min-width: 700px){
-.container_project {
-    margin: auto;
-    max-width: 75%;
-    padding-top: 13%;
-    padding-bottom: 13%;
-    }
-.subhead{
-    font-size: 16px;
-    }
-.intro{
-    max-width: 80%;
-    }
-.quote{
-    font-size: 34px;
-    }
+    .container_project {
+        margin: auto;
+        max-width: 80%;
+        padding-top: 13%;
+        padding-bottom: 13%;
+        }
+    .subhead{
+        font-size: 16px;
+        }
+    .intro{
+        max-width: 80%;
+        }
+    .quote{
+        font-size: 40px;
+        line-height: 1.2em;
+        }
     .NoBottomPadMargin{
     padding-bottom: 0px;
     margin-bottom: 0px;
@@ -1054,8 +1151,6 @@ a:visited.underline{
 
 @media (max-width: 1055px) and (min-width: 922px){
     .h1-proj{
-        margin-bottom: 3%;
-        margin-right: 56%;
         line-height: 1.1em;
     }   
 }
@@ -1063,9 +1158,9 @@ a:visited.underline{
 @media (max-width: 1055px) and (min-width: 855px){
 .container_project {
     margin: auto;
-    max-width: 64%;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    max-width: 67%;
+    padding-top: 4%;
+    padding-bottom: 4%;
     }
 .subhead{
     font-size: 16px;
@@ -1074,7 +1169,8 @@ a:visited.underline{
     max-width: 67%;
     } 
 .quote{
-    font-size: 36px;
+    font-size: 40px;
+        line-height: 1.2em;
     }
     .NoBottomPadMargin{
     padding-bottom: 0px;
@@ -1085,10 +1181,10 @@ a:visited.underline{
 @media (min-width: 1056px){
 .container_project {
     margin: auto;
-    max-width: 51%;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    }
+    max-width: 58%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
 .subhead{
     font-size: 16px;
     }
@@ -1096,7 +1192,8 @@ a:visited.underline{
     max-width: 54%;
     }
 .quote{
-    font-size: 38px;
+    font-size: 40px;
+        line-height: 1.2em;
     }
     .NoBottomPadMargin{
     padding-bottom: 0px;
@@ -1175,7 +1272,7 @@ a:visited.underline{
 }
 @media (min-width: 1056px){
     .navbar-default {
-        max-width: 54%;
+        max-width: 58%;
         padding-bottom: 1%;
     }
     .full_image_about {
