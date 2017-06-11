@@ -13,12 +13,11 @@
     
 }
 .intro-text{
-    font-weight: 300;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 40px;
-    line-height: 1.2em;
+    font-weight: bold;
+    font-family: 'Open Sans';
+    font-size: 35px;
+    line-height: 47px;
     color: #000;
-    letter-spacing: 1.3px;
 }
 h1{
     font-weight: bold;
