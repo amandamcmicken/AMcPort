@@ -276,17 +276,23 @@ a.back-to-top {
     display: none;
     width: 45px;
     height: 45px;
-    text-indent: -9999px;
+    text-indent: 12.5px;
     position: fixed;
     z-index: 999;
     right: 15px;
     bottom: 20px;
-    background: #000 url(imgs/uparrow3.svg) no-repeat center 43%;
+    background: transparent url(".../imgs/uparrow3.svg") no-repeat center 43%;
+    border: 2px solid #000;
     background-size: 60%;
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 12px;
 }
 a:hover.back-to-top {
-    background: yellow no-repeat center 43%;
+    background: #000 url(".../imgs/uparrow3.svg") no-repeat center 43%;
     background-size: 60%;
+    text-decoration: none;
+    color: #fff;
 }
 a:focus, a:hover {
     color: #000;
@@ -322,7 +328,7 @@ hr{
 .subhead2{
     font-weight: 600;
     font-size: 14px;
-    line-height: 13px;
+    line-height: 1.3em;
     padding-bottom: 15px;
     font-family: 'Open Sans';
     letter-spacing: 1.3px;
@@ -926,6 +932,7 @@ a:visited.underline{
         margin-right: 0%;
         line-height: 1.1em;
     }
+
 }
 
 @media (min-width: 400px){
