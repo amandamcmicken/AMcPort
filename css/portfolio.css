@@ -709,6 +709,7 @@ a.button_social {
 .name-footer{
     font-size: 12px;
     line-height: 12px;
+    float: left;
 }
 .social-component{
     display: inline;
