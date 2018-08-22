@@ -13,10 +13,11 @@
     
 }
 .intro-text{
-    font-weight: bold;
+    font-weight: 400;
     font-family: 'Open Sans';
-    font-size: 35px;
+    font-size: 30px;
     line-height: 47px;
+    text-align: center;
     color: #000;
 }
 h1{
@@ -57,8 +58,8 @@ h1{
 .h1-proj{
     font-weight: bold;
     font-family: 'Open Sans';
-    font-size: 22px;
-    margin-bottom: 1%;
+    font-size: 18px;
+    margin-bottom: 2%;
     color: #000;
 }
 h2{
@@ -88,10 +89,11 @@ h2{
     padding-left: 0px;
     padding-right: 0px;
 }
-
-
-
-
+.tags{
+    background-color: #ccffcc;
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;      
+    }
 
 
 .container-index{
@@ -174,8 +176,9 @@ a:hover.hyperlink-bio2{
 
 .navbar-default .navbar-brand {
     color: #000;
-    font-size: 30px;
+    font-size: 14px;
     font-weight: 600;
+    letter-spacing: .1em;
 }
 .navbar-default .navbar-brand:hover {
     color: #000;
@@ -230,10 +233,13 @@ body {
     font-family: "Roboto Sans",sans-serif;
     color: #000;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.4em;
     overflow-x: hidden;
     background-color: #FAFAFA;
+}
+mark{
+	background-color: #ccffcc;
 }
 .ContainerNoBleed{
     padding: 0px;
@@ -251,10 +257,10 @@ body {
     background-color: #FAFAFA;
 }
 .full-bleed-orange{
-    background-color: yellow;
+    background-color: #fef3f1;
 }
 .callout{
-    background-color: antiquewhite;
+    background-color: #ccffcc;
     line-height: 1.4em;
     font-size: 1em;
 }
@@ -317,7 +323,6 @@ a:focus, a:hover {
     font-size: .8em;
     letter-spacing: 1.3px;
     font-family: 'Open Sans';
-    color: #4A4A4A;
 }
 hr{
     display: block;
@@ -349,8 +354,8 @@ hr{
     font-size: 30px;
     color: #000;
     font-weight: 300;
-    line-height: 1.4em;
-    letter-spacing: 1.3px;
+    line-height: 1.2em;
+    letter-spacing: 0px;
     padding-top: 15%;
     padding-bottom: 15%;
     font-family: 'Roboto Mono', monospace;
@@ -446,6 +451,10 @@ hr{
     padding-left: 0;
     margin-bottom: 0px;
 }
+.project-title3{
+	padding-right: 15px;
+
+}
 
 .project-title2.ind2 h3{
   font-size: 14px;
@@ -461,7 +470,7 @@ hr{
   font-size: 25px;
   margin-top: 0px;
   font-weight: 400;
-    padding-left: none;
+  padding-left: none;
 }
 
 .project-title3 h4{
@@ -539,9 +548,12 @@ hr{
     font-weight: 100;
 }
 .Num{
-    font-size: 53px;
+        font-size: 25px;
     color: #000000;
     font-weight: 600;
+    background: #ccffcc;
+    border-radius: 50%;
+    padding: 5px 13px 5px 13px;
 }
 .details {
     font-size: 13px;
@@ -585,13 +597,15 @@ blockquote{
 }
 
 .view-link-footer{
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 100;
     text-decoration: underline;
 }
 .view-link-footer:hover{
     text-decoration: underline;
     color: #000;
+    background-color: yellow;
+    
 }
 
 .view-link{
@@ -664,7 +678,8 @@ blockquote{
     max-width: 75%;
 }
 .footer-background{
-    background-color: yellow;
+    background-color: #fafafa;
+    border-top: 1px solid black;
 }
 .container>.NoPad2{
     margin-left: -30px;
@@ -676,9 +691,11 @@ blockquote{
     padding-bottom: 15px;*/
 }
 .aboutbackground {
-    padding-top: 10px;
-    padding-bottom: 15px;
-    background-color: yellow;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    background-color: #fafafa;
+    margin: auto;
+    max-width: 95%;
 }
 .container_full_bleed {
     max-width: 100%;
@@ -774,20 +791,21 @@ a:visited.underline{
     max-width: 100%;
 }
 .name-bold{
-    letter-spacing: 1.3px;
+    letter-spacing: .1em;
     font-family: 'Roboto';
     font-weight: 700;
     line-height: 30px;
+    text-transform: lowercase;
 }
 .footer-title{
-    font-size: 30px;
+    font-size: 18px;
     line-height: 32px;
 }
 .footer-subtitle{
-    font-size: 18px;
+    font-size: 14px;
     font-family: 'Open Sans';
     margin-top: 1.5%;
-    font-weight: 400;
+    font-weight: 100;
 }
 
 
@@ -823,7 +841,10 @@ a:visited.underline{
     .navbar-nav>li>a {
     padding-top: 11px;
     padding-bottom: 15px;
-}
+	}
+	.aboutbackground{
+	max-width: 70%;	
+	}
 }
 
 
@@ -1077,13 +1098,23 @@ a:visited.underline{
         margin-top: -10px;
     }
     .footer-title{
-        width: 95%;
+        width: 70%;
+    }
+    .footer-subtitle{
+	    width: 70%;
     }
     .project-descrip p{
         font-size: 1.0em;
     }
     h2{
         margin-top: 4%;
+        line-height: 30px;
+    }
+    .col-md-9{
+	    width: 73%;
+    }
+    .col-md-3{
+	    width: 27%;
     }
 }
 
@@ -1118,6 +1149,10 @@ a:visited.underline{
         float: right;
         margin: 7px 0 0 0;
     }
+    .aboutbackground {
+    padding-bottom: 0%;
+    max-width: 95%;
+	}
 }
 
 @media (min-width: 400px){
@@ -1136,6 +1171,10 @@ a:visited.underline{
     .navbar-brand{
         padding-left: 0px;
     }
+    .aboutbackground {
+    padding-bottom: 0%;
+    max-width: 85%;
+	}
 }
 
 
@@ -1150,6 +1189,10 @@ a:visited.underline{
         padding-top: 13%;
         padding-bottom: 13%;
     }
+    .aboutbackground {
+    padding-bottom: 0%;
+    max-width: 80%;
+	}
     .subhead{
         font-size: 14px;
     }
@@ -1157,7 +1200,7 @@ a:visited.underline{
     max-width: 80%;
     }
     .quote{
-        font-size: 40px;
+        font-size: 30px;
         line-height: 1.2em;
     }
     .NoBottomPadMargin{
@@ -1173,6 +1216,9 @@ a:visited.underline{
         padding-top: 13%;
         padding-bottom: 13%;
         }
+    .aboutbackground{
+	  	max-width: 80%;  
+    }
     .subhead{
         font-size: 16px;
         }
@@ -1202,6 +1248,10 @@ a:visited.underline{
     padding-top: 4%;
     padding-bottom: 4%;
     }
+.aboutbackground{
+	max-width: 67%;
+	padding-bottom: 8%;
+}
 .subhead{
     font-size: 16px;
     }
@@ -1224,6 +1274,10 @@ a:visited.underline{
     max-width: 58%;
     padding-top: 5%;
     padding-bottom: 5%;
+}
+.aboutbackground{
+	max-width: 58%;	
+	padding-bottom: 2%;
 }
 .subhead{
     font-size: 16px;
