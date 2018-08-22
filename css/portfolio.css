@@ -911,6 +911,9 @@ a:visited.underline{
     }
     .row.main.me{
     }
+    h2{
+	    margin-top: 10px;
+    }
 
 }
 @media (min-width: 500px){
