@@ -124,7 +124,7 @@ a:visited{
 a.hyperlink{
     position: relative;
     color: black;
-    background-color: yellow;
+    background-color: #FCF4AA;
 }
 a:visited.hyperlink{
     text-decoration: none; 
@@ -132,7 +132,7 @@ a:visited.hyperlink{
 }
 a:hover.hyperlink{
     text-decoration: underline;
-    background-color: yellow;
+    background-color: #FCF4AA;
 }
 
 a.hyperlink-bio{
@@ -148,7 +148,7 @@ a:visited.hyperlink-bio{
     text-decoration: underline;
 }
 a:hover.hyperlink-bio{
-    background-color: yellow;
+    background-color: #FCF4AA;
     text-decoration: underline;
 }
 a.hyperlink-bio2{
@@ -226,7 +226,7 @@ a:hover.hyperlink-bio2{
 
 a.active-page{
     text-decoration: underline;
-    background-color: yellow;
+    background-color: #FCF4AA;
 }
 
 body {
@@ -582,7 +582,7 @@ hr{
 }
 
 .project-image:hover {
-  border-bottom: 5px solid yellow;
+  border-bottom: 5px solid #FCF4AA;
 }
 
 .project-image {
@@ -604,7 +604,7 @@ blockquote{
 .view-link-footer:hover{
     text-decoration: underline;
     color: #000;
-    background-color: yellow;
+    background-color: #FCF4AA;
     
 }
 
@@ -615,7 +615,7 @@ blockquote{
     text-decoration: underline;
 }
 .view-link:hover{
-    background-color: yellow;
+    background-color: #FCF4AA;
 }
 
 .footer-link{
@@ -632,9 +632,9 @@ blockquote{
     padding: 12px;
     text-decoration: none;
     color: #000;
-    background-color: yellow;
+    background-color: #FCF4AA;
     font-weight: 100;
-    border: solid yellow 3px;
+    border: solid #FCF4AA 3px;
 }
 .fa{
     display: inline-block;
@@ -746,7 +746,7 @@ a.button_social {
 }
 .social a:hover{
     color: black;
-    background-color: yellow;
+    background-color: #FCF4AA;
     border-bottom: none;
     text-decoration: none;
 }
@@ -755,7 +755,7 @@ a:visited.button_portfolio{
     color: black;
 }
 a:hover.button_portfolio{
-    background-color: yellow;
+    background-color: #FCF4AA;
     color: black;
     text-decoration: underline;
 }
