@@ -264,6 +264,14 @@ mark{
     line-height: 1.4em;
     font-size: 1em;
 }
+.metric{
+	font-size: 14pt;
+	font-weight: 600;
+	background-color: #ccffcc;
+}
+.fineprint{
+	font-size: 6pt;
+}
 .row.main.me{
     background-color: #FFE588;
     margin-bottom: 0px;
