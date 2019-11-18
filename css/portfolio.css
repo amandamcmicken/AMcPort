@@ -17,7 +17,7 @@
     font-family: 'Open Sans';
     font-size: 30px;
     line-height: 47px;
-    text-align: center;
+    text-align: left;
     color: #000;
 }
 h1{
@@ -61,6 +61,16 @@ h1{
     font-size: 18px;
     margin-bottom: 2%;
     color: #000;
+}
+.h1-proj2{
+    font-weight: bold;
+    font-family: 'Open Sans';
+    font-size: 22px;
+    margin-bottom: 3%;
+    line-height: 2em;
+    background: -webkit-linear-gradient(45deg, #2483c5, #00ff95 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 h2{
     font-weight: light;
@@ -345,18 +355,30 @@ hr{
     font-weight: 600;
     font-size: 14px;
     line-height: 1.3em;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
     font-family: 'Open Sans';
-    letter-spacing: 1.3px;
     color: #000;
 }
 .subhead3{
     font-weight: 600;
     font-size: 12px;
-    line-height: 13px;
+    line-height: 17px;
     font-family: 'Open Sans';
     margin-top: 20px;
     color: #4A4A4A;
+}
+.subhead4{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 17px;
+    font-family: 'Open Sans';
+    color: #000;
+    padding-bottom: 10px;
+    letter-spacing: 0px;
+}
+#centeredImage{
+    margin-left: auto;
+    margin-right: auto;
 }
 .quote{
     font-size: 30px;
@@ -966,7 +988,7 @@ a:visited.underline{
     }
     .row.footer2{
         margin: auto;
-        max-width: 57%;
+        max-width: 60%;
     }
     .h1-proj{
         margin-right: 0%;
@@ -1096,7 +1118,7 @@ a:visited.underline{
     }
     .project-info-proj{
         float: left;
-        width: 32%;
+        width: 100%;
     }
     .role-margin{
         margin-right: 45px;
@@ -1122,10 +1144,10 @@ a:visited.underline{
         line-height: 30px;
     }
     .col-md-9{
-	    width: 73%;
+	    width: 65%;
     }
     .col-md-3{
-	    width: 27%;
+	    width: 30%;
     }
 }
 
@@ -1184,7 +1206,7 @@ a:visited.underline{
     }
     .aboutbackground {
     padding-bottom: 0%;
-    max-width: 85%;
+    max-width: 92%;
 	}
 }
 
@@ -1283,7 +1305,7 @@ a:visited.underline{
 .container_project {
     margin: auto;
     max-width: 58%;
-    padding-top: 5%;
+    padding-top: 3%;
     padding-bottom: 5%;
 }
 .aboutbackground{
